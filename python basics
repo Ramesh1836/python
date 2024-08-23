@@ -1,0 +1,42 @@
+Write a program to print your name ?
+print("Your Name")
+
+Write a program for a Single line comment and multi-line comments ?
+  # This is a single line comment
+
+"""
+This is a multi-line comment
+spanning multiple lines.
+"""
+
+  Define variables for different Data Types int, Boolean, char, float, double and print on the 
+Console.
+# Define variables of different data types
+int_var = 10
+bool_var = True
+char_var = 'A'
+float_var = 10.5
+double_var = 20.99  # In Python, float and double are the same
+
+# Print the variables
+print("Integer:", int_var)
+print("Boolean:", bool_var)
+print("Character:", char_var)
+print("Float:", float_var)
+print("Double:", double_var)
+
+Define the local and Global variables with the same name and print both variables and 
+understand the scope of the variables
+# Global variable
+var = "Global Variable"
+
+def my_function():
+    # Local variable with the same name
+    var = "Local Variable"
+    print("Inside the function:", var)
+
+# Call the function
+my_function()
+
+# Print the global variable
+print("Outside the function:", var)
