@@ -1,0 +1,51 @@
+Write a function for arithmetic operators(+,-,*,/)
+def arithmetic_operations(a, b):
+    addition = a + b
+    subtraction = a - b
+    multiplication = a * b
+    division = a / b if b != 0 else 'Division by zero error'
+    return addition, subtraction, multiplication, division
+
+# Example usage
+a, b = 10, 5
+print(arithmetic_operations(a, b))
+
+2. Write a method for increment and decrement operators(++, --)
+def increment_decrement(value):
+    incremented = value + 1
+    decremented = value - 1
+    return incremented, decremented
+
+# Example usage
+value = 10
+print(increment_decrement(value))
+
+3. Write a program to find the two numbers equal or not.
+def are_numbers_equal(a, b):
+    return a == b
+
+# Example usage
+a, b = 10, 10
+print(are_numbers_equal(a, b))
+
+4. Program for relational operators (<,<==, >, >==)
+def relational_operators(a, b):
+    less_than = a < b
+    less_than_equal = a <= b
+    greater_than = a > b
+    greater_than_equal = a >= b
+    return less_than, less_than_equal, greater_than, greater_than_equal
+
+# Example usage
+a, b = 10, 5
+print(relational_operators(a, b))
+
+5. Print the smaller and larger number
+def smaller_and_larger(a, b):
+    smaller = min(a, b)
+    larger = max(a, b)
+    return smaller, larger
+
+# Example usage
+a, b = 10, 5
+print(smaller_and_larger(a, b))
